@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <title>Ancient DNA and the European Neolithic</title>
+    <meta content="urn:uuid:7a42176f-8084-4cc5-b941-35f2c3610079" name="Adept.expected.resource"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" type="text/css" href="../stylesheet.css"/>
+<link rel="stylesheet" type="text/css" href="../page_styles.css"/>
+
+  
+
+
+<link href="../calibreHtmlOutBasicCss.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+
+<div class="calibreMeta">
+  <div class="calibreMetaTitle">
+  
+  
+    
+    <h1>
+      <a href="../../0uxpbel6.html">Ancient DNA and the European Neolithic
+</a>
+    </h1>
+    
+    
+  
+  </div>
+  <div class="calibreMetaAuthor">
+    Alasdair Whittle;Joshua Pollard;Susan Greaney;
+
+  </div>
+</div>
+
+<div class="calibreMain">
+
+  <div class="calibreEbookContent">
+    
+      <div class="calibreEbNavTop">
+        
+          <a href="10_Chapter04.xhtml" class="calibreAPrev">previous page
+</a>
+        
+
+        
+          <a href="12_Chapter06.xhtml" class="calibreANext">next page
+</a>
+        
+      </div>
+    
+
+    
+<div id="Chapter05" class="calibre2">
+<p class="chapnum" id="ch5"><a id="page_51"></a><span class="italic">Chapter 5</span></p>
+<p class="linec"/>
+<p class="chaptitle">Reconstructing the genealogical relationships of hunter-gatherers and farmers</p>
+<p class="chapaut" id="ch5-1"><span class="italic1">Leo Speidel</span></p>
+<p class="noindenth"><span class="italic">In this chapter, I give an overview of a new set of statistical tools that promise to extract more information than previously possible from ancient DNA data to infer key historical events. I demonstrate these techniques in an application to data from the European Neolithic and beyond and show that we can learn about a broad range of phenomena of the past, ranging from natural selection, to quantifying genetic structure, and tracing a mutation rate change that occurred in ancestors of Neolithic farmers.</span></p>
+<p class="h">MAKING SENSE OF GENETIC VARIATION TO LEARN ABOUT OUR HISTORY</p>
+<p class="noindent">Recent years have increasingly seen ancient humans being sequenced at scale, enabling us to directly observe genetic variation of the past and how it compares to the present. Our goal is to learn about key historical events from such data, by using statistical approaches to decipher the patterns in genetic variation that are left behind.</p>
+<p class="indent">Historical events, such as mixture events of previously distinct groups, adaptation to changing lifestyles and environments through natural selection, or more fundamental changes in the molecular processes that generate mutation or impact on the ways in which these are passed on to offspring, affect genetic variation in subtly different ways. As multiple processes act on our genomes simultaneously, making sense of genetic variation is not an easy task. However, the ever-increasing numbers of sequenced individuals, and a long history of statistical and mathematical models in genetics, help us in this endeavour.</p>
+<p class="indent">Ancient DNA (hereafter aDNA) has played a particularly important role in exploring historical civilisations, how they interacted and how they relate to people today. Without aDNA, we relied on extrapolating from the genomes of present-day people into the past, and in many cases, it was not possible to identify clearly the historical groups that makeup present-day populations. By providing us with direct snapshots of the past, aDNA has led to remarkable discoveries about past migrations and mixtures (Skoglund and Mathieson 2018).</p>
+<p class="indent">In this chapter, we will look at a new set of statistical tools that promise to extract more information than previously possible from aDNA data to infer key events in our history. We do this by building genealogical trees that describe how individuals from different time periods are genetically related to each other. These genealogical trees also allow us to extrapolate further into the past where sequence data are sparse. While still in its infancy, <a id="page_52"></a>this new set of statistical tools promises to give us a more detailed and complete picture of our genetic past and should lead to better inferences about how humans have evolved and interacted with one another over millennia.</p>
+<p class="h">THE GENETIC FAMILY TREES THAT RELATE EVERYONE TO EVERYONE</p>
+<p class="noindent">To understand the link between historical events and how they affect genetic variation, it is useful to think about how we are all genetically related to each other. Genealogical trees, which can be thought of as genetic family trees, connect us through common ancestors back in time. In these trees, lineages merge back in time until we reach a single common ancestor, typically around a million years in the past. Any evolutionary forces affecting genetic variation do so by impacting upon these underlying genealogical trees. For instance, positive selection will change the shape of these trees such that lineages carrying the advantageous allele have more offspring. Population bottlenecks will force all lineages to go through a limited number of ancestors, resulting in a burst of coalescences at the time of the bottleneck. Therefore, if only we knew these tree relationships, we would obtain a much more direct way to make inferences about past events.</p>
+<p class="indent">These genealogical tree relationships differ in different parts of the genome. The reason for this is best described in the example of siblings (<a href="11_Chapter05.xhtml#fig5-1">Fig. 5.1a</a>). In siblings, different parts of the genome derive from different grandparents. This is because we pass on a single set of chromosomes to our offspring, which consists of a random mixture of our maternal and paternal chromosomes, created through a process called recombination. As a consequence, in some parts of the genome, the most recent genetic common ancestor of siblings is their immediate parent, but in other parts of the genome siblings are genetically unrelated, and their most recent common ancestor could go back hundreds of thousands of years in the past (<a href="11_Chapter05.xhtml#fig5-1">Fig. 5.1a</a>). For a sample of unrelated individuals, we obtain millions of distinct tree relationships across the whole genome, each following a different path through ancestors; this collection of trees provides us with a rich description of ancestral relationships.</p>
+<p class="indent">In <a href="11_Chapter05.xhtml#fig5-1">Figure 5.1b</a>, I plot a genealogical tree in the SLC24A5 gene constructed using a tool called Relate (Speidel <span class="italic">et al</span>. 2019). We highlight a mutation that is strongly associated with lighter skin pigmentation (Mallick <span class="italic">et al</span>. 2013). This mutation has been shown to be under strong positive selection and is carried by nearly all present-day individuals with European ancestries (Mallick <span class="italic">et al</span>. 2013; Fan <span class="italic">et al</span>. 2016). Alongside modern-day individuals from the Simon’s Genome Diversity dataset (Mallick <span class="italic">et al</span>. 2016), the tree also contains a high-coverage western hunter-gatherer and early Neolithic farmer (Lazaridis <span class="italic">et al</span>. 2014), an early Neolithic Iranian farmer (Broushaki <span class="italic">et al</span>. 2016), a Yamnaya individual (de Barros Damgaard <span class="italic">et al</span>. 2018), a high-coverage Denisovan (Meyer <span class="italic">et al</span>. 2012), and a Neanderthal individual (Prüfer <span class="italic">et al</span>. 2017). We can see that the height of this tree exceeds one million years, indicating that genetic variation can in principle tell us about historical events up to millions of years in the past.</p>
+<p class="indent">This tree describes a locus under strong positive selection in West Eurasians, evident by the fact that the most recent common ancestor of all West Eurasians is less than 100,000 years old in this tree. In contrast, in a random part of the genome, this ancestor is typically 10 times older. We see that groups not experiencing selection at this locus, such as East Asians and Africans, have a much older common ancestor. Perhaps contrary to expectation, this tree does not cleanly separate global groups. This is because present-day groups emerged recently compared to the time-depths of this tree, and lineages that are older than the split time of these groups are no longer associated with the group labelling at the bottom of the tree. A consequence is that many mutations are shared across populations and only differ in their respective frequencies.</p>
+<p class="image" id="fig5-1"><a id="page_53"></a><img alt="images" src="images/f0053-01.jpg" class="calibre1"/></p>
+<p class="caption"><span class="italic">Figure 5.1. a) A schematic of how recombination breaks up parental chromosomes when they are passed on to the next generation. Siblings, as a result, are genetically closely related in some parts of their genomes and are unrelated in others. b) A genealogical tree at a locus in the SLC24A5 gene, showing how modern-day and ancient individuals are related to each other in this part of the genome. Lineages carrying an allele associated with lighter skin pigmentation are highlighted in red.</span></p>
+<p class="h">HOW DO WE INFER GENEALOGICAL TREES?</p>
+<p class="noindent">Mathematical models for describing how we expect genealogical trees to look have existed for many decades (Kingman 1982; Hudson and Kaplan 1985; Griffiths and Marjoram 1997), and have been fundamental to many, if not most, of the methods we use in population <a id="page_54"></a>genetics. These models have also been instrumental in phylogenetics and the reconstruction of trees of non-recombining genetic material such as mitochondrial DNA (Drummond and Rambaut 2007). However, it remained challenging to use these models to infer unknown whole-genome genealogies.</p>
+<p class="indent">A major challenge is that it is not possible to observe directly where recombination has happened. Instead, these sites have to be located by looking at patterns in mutation sharing across individuals. Doing this in a principled statistical way for any meaningful number of samples is computationally unfeasible (Griffiths and Marjoram 1996). Until recently, genealogical inference has therefore remained unsolved even for moderate sample sizes, but new methods have now made it possible to infer genealogical trees (Rasmussen <span class="italic">et al</span>. 2014), including for many thousands or more samples (Kelleher <span class="italic">et al</span>. 2019; Speidel <span class="italic">et al</span>. 2019; Zhang <span class="italic">et al</span>. 2021). This advance is primarily based on finding new ways to approximate the otherwise computationally difficult problem of making exact statistical inference and introducing computational shortcuts that are founded on principled ideas.</p>
+<p class="indent">While still in their infancy, genealogy-based methods are promising because they extract, in principle, as much information about the past as possible from genetic data, provided that we can infer these trees accurately and without bias. Similar to aDNA, they provide snapshots of genetic variation of the past by extrapolating from the present day (or from sequenced ancient individuals). This also makes genealogies an ideal framework for combining modern and aDNA samples in a principled way.</p>
+<p class="indent">To demonstrate how genealogical inference works, I will use the example of Relate (Speidel <span class="italic">et al</span>. 2019), a tool that we developed for inference of such trees for many thousands of individuals. This and other tools have been widely applied across species, adapted to work with aDNA (Schaefer <span class="italic">et al</span>. 2021; Speidel <span class="italic">et al</span>. 2021; Wohns <span class="italic">et al</span>. 2022), and have led to many downstream tools that utilise these trees for studying population structure, admixture and selection (Stern <span class="italic">et al.</span> 2019; 2021; Ralph <span class="italic">et al.</span> 2020; Fan <span class="italic">et al</span>. 2022).</p>
+<p class="h">EACH MUTATION INDICATES THE EXISTENCE OF A BRANCH</p>
+<p class="noindent">So how do mutations and their sharing patterns tell us about the tree structure and timings of local genealogical trees? It is easiest to first think of an easier case, namely if there was no recombination and hence only a single tree describing the ancestry of our sample. The main assumption we and others make is that every mutation happened only once in history. In other words, at any position in the genome, there is either one or no mutation to be observed, and any mutation can be traced to a single event. This assumption is known as the infinite-sites assumption (Kimura 1969) and justified by the fact that the mutation rate is low in humans, so that repeat mutations are rare. If every mutation is unique and in the absence of sequencing errors, we can see that every mutation indicates exactly the existence of one branch, namely a branch for which the descendant set exactly matches the carriers of this mutation. If we have enough mutations, we can therefore exactly reconstruct the treelike relationship of our sample. Once the tree structure is resolved, we can date branches by mapping mutations on to the corresponding branches with matching descendant sets. Assuming a known mutation rate, we can then rescale branches such that they reflect the number of mutations occurring on them.</p>
+<p class="h"><a id="page_55"></a>DETECTING RECOMBINATION</p>
+<p class="noindent">With recombination, a different tree describes the relationships of our sample in different regions of the genome, but we do not know where these tree relationships change. We therefore rely on noticing that mutations start to contradict each other and become inconsistent with a single tree. For example, a partial overlap in carriers of mutations is impossible without recombination and is therefore sufficient to conclude that there has been at least one event between such mutations (Hudson and Kaplan 1985). Not all recombination events are detectable. We are only able to detect events that are sufficiently tagged by flanking mutations to cause contradictions. In addition, some recombination events do not cause contradictions in sharing patterns and are therefore invisible to us.</p>
+<p class="indent">Once we have decided where breakpoints happen, we can then go back to the no recombination case and construct local genealogies. In practice, we use statistical approaches that somewhat account for the uncertainty in where recombination occurs.</p>
+<p class="h">APPLICATIONS TO NEOLITHIC EUROPE AND BEYOND</p>
+<p class="noindent">The promise of genealogy-based inference is threefold. First, these methods should have increased statistical power, allowing us to detect patterns in the data that we may not be able to detect with more conventional approaches. Secondly, all inferences are derived from a single reconstruction of history, and different inferences we derive should therefore be self-consistent and more easily comparable, aiding interpretability. Finally, these trees naturally incorporate ancient samples of different ages.</p>
+<p class="indent">Here I look at two applications of genealogies to genomes from ancient Europe (Speidel <span class="italic">et al</span>. 2021). First, we use genealogies to quantify population structure. We demonstrate that genealogies are able to quantify how long ago such structure may have arisen. Secondly, we use genealogies to quantify a mutation rate pulse, probably occurring in ancestors of early Anatolian farmers, and demonstrate that genealogies can be used to study a multitude of processes impacting upon genetic variation.</p>
+<p class="h">GENEALOGIES CAN ACCURATELY QUANTIFY RECENT POPULATION STRUCTURE</p>
+<p class="noindent">Population structure reflects systematic differences in the ways in which individuals are related to each other, and has been shown to exist at very fine scales in present-day people, such as almost at county-level resolution in some regions of Britain (Leslie <span class="italic">et al</span>. 2015). To demonstrate that genealogy-based inference can accurately detect recent population structure where more conventional approaches would struggle to do so, we first use a simulated example where the true underlying population history is known.</p>
+<p class="indent">We adapt the simulation used in Fan <span class="italic">et al</span>. (2022), which simulates 25 populations arranged in a 5 times 5 grid (<a href="11_Chapter05.xhtml#fig5-2">Fig. 5.2b</a>). These populations derive from a common ancestral population 100 generations ago (less than 3000 years ago). Migration between neighbouring grid cells is allowed at a rate of 1% per generation, and the diploid population sizes in each of the 25 populations is set to 500, and 10,000 in the ancestral population. From this simulation, we obtain data emulating sequencing data from 50 individuals (two individuals per population). Additionally, we sample 100 individuals from the ancestral population, which can be thought of as a closely related outgroup.</p>
+<p class="image" id="fig5-2"><a id="page_56"></a><img alt="images" src="images/f0056-01.jpg" class="calibre1"/></p>
+<p class="caption"><span class="italic">Figure 5.2. a) Genetic structure quantified in three different ways. Left panel shows the first two principal components (PCs) of a matrix storing pairwise differences between individuals. Middle panel shows the first two PCs of a matrix storing pairwise coalescence rates in the past 100 generations inferred using Relate. Right panel is analogous to the middle panel but inferred using Colate. Colours shown are according to the grid-like underlying structure in the simulations, shown in b. c) First two PCs of coalescence rates calculated for real ancient data of individuals from the European Mesolithic, Neolithic and Bronze Age. The PCs are calculated for two periods.</span></p>
+<p class="indent">In <a href="11_Chapter05.xhtml#fig5-2">Figure 5.2a</a>, we quantify structure in three different ways and calculate a separation index (SI), which indicates how well groups are separated; this index ranges from 0.5 (poor separation) to 1.0 (good separation) (Fan <span class="italic">et al</span>. 2022).</p>
+<p class="indent">First, to establish a baseline for how difficult it is to detect population structure in this example, we quantify structure without using genealogies. We calculate the number of pairwise genetic differences between all pairs of the 50 individuals. We visualise this matrix using a technique called principal component analysis (PCA). A PCA finds the two dimensions that best describe the matrix, allowing us to visualise the patterns it contains with ease. We can see that while there is perhaps some agreement with the grid-like organisation of these populations, it does so not very convincingly (SI = 0.56).</p>
+<p class="indent"><a id="page_57"></a>Secondly, we build genealogical trees for these 50 individuals using Relate and calculate the average relatedness of pairs of samples in the past 100 generations. Technically, we do this by calculating the rate of coalescence in this time period averaged across the whole genome. Again visualising this matrix using a PCA, we now clearly recover the grid-like organisation of these populations (SI = 0.87). An added benefit is that we can tweak how much into the past we want to measure this relatedness, which can be used as an estimate for how long ago these populations emerged.</p>
+<p class="indent">Finally, we quantify structure in a related but slightly different way. We use a method called Colate (Speidel <span class="italic">et al</span>. 2021), which we designed to work on ancient genomes sequenced to low coverage. For low-coverage samples, it is not possible to build genealogical trees directly, since we are not able to determine their genomes with confidence. To apply Colate, we first build a genealogy for the 100 outgroup individuals, which we assume are sequenced to high coverage. In practice, these outgroup individuals could be a large-scale dataset of present-day people. We then use this reference genealogy to calculate relatedness in the past 100 generations between all pairs of target individuals (the 50 individuals in 25 populations) using Colate. As for Relate, we recover a grid-like structure, indicating increased power compared to the first approach in <a href="11_Chapter05.xhtml#fig5-2">Figure 5.2a</a> (SI = 0.85).</p>
+<p class="indent">Application of Colate to data from the European Mesolithic, Neolithic and Bronze Age is shown in <a href="11_Chapter05.xhtml#fig5-2">Figure 5.2c</a>. We visualise two time periods. Around 10,000 years ago, we detect known genetic structure differentiating hunter-gatherers from early farmers and later Bronze Age people (Lazaridis <span class="italic">et al</span>. 2014). More than 40,000 years ago, this structure largely disappears. The structure we observe around 10,000 years ago with Colate looks comparable to that obtained with conventional approaches (Lazaridis <span class="italic">et al</span>. 2014). The likely reason for not observing finer-scale structure at this point is that we currently lack the sample size to identify finer-scale structure within each respective time period and geographic region. To what extent such structure existed, for instance during the Neolithic, is subject to further study.</p>
+<p class="h">TRACING A MUTATION RATE PULSE IN ANCIENT EUROPE</p>
+<p class="noindent">Temporal changes in fundamental biological processes, such as the rate at which mutations occur, can leave traces in the variation patterns that we observe. Genealogies allow us to measure the mutation rate easily because we can simply count how many mutations occur in any time period. Using this, we can identify a pulse in the mutation rate of the triplet TCC mutating towards TTC, first identified by Kelley Harris (2015; Harris and Pritchard 2017). This pulse is absent from present-day groups outside West and South Eurasia and therefore appears to have occurred in an ancestor of these groups but not of other global populations. It appears that the driver of this pulse was temporal and is no longer present in people today (Harris and Pritchard 2017; Speidel <span class="italic">et al</span>. 2019).</p>
+<p class="indent">To pinpoint its origin, we quantified this pulse in ancient individuals (<a href="11_Chapter05.xhtml#fig5-3">Fig. 5.3a</a>). Our analysis suggests that the pulse was already carried by early Anatolian farmers (<span class="italic">e.g.</span> Bon002) (Kılınç <span class="italic">et al</span>. 2016), as well as western hunter-gatherers (<span class="italic">e.g.</span> Bichon) (Jones <span class="italic">et al</span>. 2015), eastern hunter-gatherers (Sidelkino) (de Barros Damgaard <span class="italic">et al</span>. 2018), and Caucasus hunter-gatherers (Satsurblia) (Jones <span class="italic">et al</span>. 2015), who were living around 10,000 years ago. Assuming a single origin, this suggests that a group ancestral to all West Eurasian hunter-gatherers of this time is the origin for this pulse. The signal appears absent from earlier hunter-gatherers, such as Sunghir3 (Sikora <span class="italic">et al</span>. 2017) and Kostenki14 (Seguin-Orlando <span class="italic">et al</span>. 2014). Overall, the pulse is stronger in early Neolithic farmers, and correlates remarkably well with overall genetic relatedness to an Anatolian farmer (<a href="11_Chapter05.xhtml#fig5-3">Fig. 5.3b</a>). This may indicate a dilution of this ancestry in other hunter-gatherer groups or directional migration of ancestors of Anatolian farmers into other hunter-gatherer groups across Europe, predating the spread of farming.</p>
+<p class="image" id="fig5-3"><a id="page_58"></a><img alt="images" src="images/f0058-01.jpg" class="calibre1"/></p>
+<p class="caption"><span class="italic">Figure 5.3. a) Map showing strength of the TCC/TTC mutation rate pulse in ancient people, grouped into early farmers and hunter-gatherers. A larger TCC/TTC proportion indicates a stronger pulse. b) Strength of TCC/TTC in individuals plotted against how closely they are related to a western huntergatherer (left) and an early Anatolian farmer (right).</span></p>
+<p class="indent"><a id="page_59"></a>We do in fact detect signals consistent with potential bidirectional migration between ancestors of Anatolian farmers and other hunter-gatherer groups in our genealogical trees (Speidel <span class="italic">et al</span>. 2022). However, the detailed genetic relationship among West Eurasian hunter-gatherer groups in the Late Palaeolithic is currently not fully understood. One candidate group that may be the missing link between these groups is the Dzudzuana Cave individuals, a group living in the Caucusus around 26,000 years ago (Lazaridis <span class="italic">et al</span>. 2018). These are thought to be closely related to later Anatolians and have links to other hunter-gatherer groups across Europe. A related possibility is also an increase in migrations during the Bølling-Allerød interstadial, a brief warming period following the Last Glacial Maximum in Europe (Fu <span class="italic">et al.</span> 2016). Ancient DNA data are currently sparse in this time period and it remains to be seen whether further advances in statistical analyses and new aDNA data can shed light on how these hunter-gatherer groups relate to each other.</p>
+<p class="h">DISCUSSION</p>
+<p class="noindent">In this chapter, I introduced recent advances that have enabled us to infer genealogies for large datasets including modern and ancient genomes. While still in their infancy, they have already proven to be a powerful framework for shedding light on a broad range of evolutionary events that have usually been done using separate tools. These include the inference of population structure, demographic history, admixture, positive selection and mutation rate changes.</p>
+<p class="indent">The framework presented is promising because it aims to reconstruct our genetic past to the best achievable resolution and therefore maximise the information we can extract from genetic data. There are, however, limitations in our ability to do this. A fundamental limitation, for instance, is that for many parts of the genome, we are unable to fully resolve genealogical trees with high confidence. This is because recombination occurs at a comparable frequency to mutation, such that some lineages in the trees will end up with no mutations evidencing it. Since this limitation is fundamental to the way in which we inherit DNA and is not solved by increased data or better methods, it is important to construct trees that are unbiased in unresolved parts of the trees – something towards which we have put a lot of care when developing Relate but which may still be imperfect in some cases. A strength of Relate and similar methods such as tsinfer is that they are built on few assumptions, reflected in the fact that they have been applied successfully across species with different evolutionary parameters including in humans, canids (Bergström <span class="italic">et al</span>. 2022), plants (Kreiner <span class="italic">et al</span>. 2022), and fish (Matschiner <span class="italic">et al</span>. 2022). These tools are particularly well suited to combining data from larger numbers of samples and will benefit from the ever-increasing numbers of aDNA data becoming available.</p>
+<p class="h"><a id="page_60"></a>ACKNOWLEDGEMENTS</p>
+<p class="noindent">I thank Clare West for helpful comments and acknowledge support provided through a Sir Henry Wellcome Postdoctoral fellowship [220457/Z/20/Z].</p>
+<p class="h">REFERENCES</p>
+<p class="bib">Bergström, A., Stanton, D.W.G., Taron, U.H., Frantz, L., Sinding, M.-H. S., Ersmark, E. <span class="italic">et al</span>. 2022. Grey wolf genomic history reveals a dual ancestry of dogs. <span class="italic">Nature</span> 607(7918), 313–20.</p>
+<p class="bib">Broushaki, F., Thomas, M.G., Link, V., López, S., van Dorp, L., Kirsanow, K. <span class="italic">et al</span>. 2016. Early Neolithic genomes from the eastern Fertile Crescent. <span class="italic">Science</span> 353(6298), 499–503.</p>
+<p class="bib">de Barros Damgaard, P., Martiniano, R., Kamm, J., Moreno-Mayar, J.V., Kroonen, G., Peyrot, M. <span class="italic">et al</span>. 2018. The first horse herders and the impact of early Bronze Age steppe expansions into Asia. <span class="italic">Science</span> 360(6396), eaar7711.</p>
+<p class="bib">Drummond, A.J. and Rambaut, A. 2007. BEAST: Bayesian evolutionary analysis by sampling trees. <span class="italic">BMC Evolutionary Biology</span> 7, 214.</p>
+<p class="bib">Fan, C., Mancuso, N. and Chiang, C.W.K. 2022. A genealogical estimate of genetic relationships. <span class="italic">American Journal of Human Genetics</span> 109(5), 812–24.</p>
+<p class="bib">Fan, S., Hansen, M.E.B., Lo, Y. and Tishkoff, S.A. 2016. Going global by adapting local: a review of recent human adaptation. <span class="italic">Science</span> 354(6308), 54–9.</p>
+<p class="bib">Fu Q., Posth C., Hajdinjak M., Petr M., Mallick S., Fernandes D. <span class="italic">et al.</span> 2016. The genetic history of Ice Age Europe. <span class="italic">Nature</span> 534(7606), 200–5.</p>
+<p class="bib">Griffiths, R.C. and Marjoram, P. 1996. Ancestral inferences from samples of DNA sequences with recombination. <span class="italic">Journal of Computational Biology: A Journal of Computational Molecular Cell Biology</span> 3, 479–502.</p>
+<p class="bib">Griffiths, R.C. and Marjoram, P. 1997. An ancestral recombination graph. In P. Donnelly and S. Tavarè (eds), <span class="italic">Progress in population genetics and human evolution</span>, 257–70. New York: Springer.</p>
+<p class="bib">Harris, K. 2015. Evidence for recent, population-specific evolution of the human mutation rate. <span class="italic">Proceedings of the National Academy of Sciences of the United States of America</span> 112, 3439–44.</p>
+<p class="bib">Harris, K. and Pritchard, J. 2017. Rapid evolution of the human mutation spectrum. <span class="italic">eLife</span> 6, e24284.</p>
+<p class="bib">Hudson, R.R. Kaplan, N.L. 1985. Statistical properties of the number of recombination events in the history of a sample of DNA sequences. <span class="italic">Genetics</span> 111, 147–64.</p>
+<p class="bib">Jones, E.R., Gonzalez-Fortes, G., Connell, S., Siska, V., Eriksson, A., Martiniano, R. <span class="italic">et al</span>. 2015. Upper Palaeolithic genomes reveal deep roots of modern Eurasians. <span class="italic">Nature Communications</span> 6(1), 8912.</p>
+<p class="bib">Kelleher, J., Wong, Y., Wohns, A. W., Fadil, C., Albers, P.K. and McVean, G. 2019. Inferring whole-genome histories in large population datasets. <span class="italic">Nature Genetics</span> 51(9), 1330–8.</p>
+<p class="bib">Kimura, M. 1969. The number of heterozygous nucleotide sites maintained in a finite population due to steady flux of mutations. <span class="italic">Genetics</span> 61, 893.</p>
+<p class="bib">Kingman, J.F.C. 1982. On the genealogy of large populations. <span class="italic">Journal of Applied Probability</span> 19, 27–43.</p>
+<p class="bib">Kılınç, G.M., Omrak, A., Özer, F., Günther, T., Büyükkarakaya, A.M., Bıçakçı, E. <span class="italic">et al</span>. 2016. The demographic development of the first farmers in Anatolia. <span class="italic">Current Biology: CB</span> 26(19), 2659–66.</p>
+<p class="bib">Kreiner, J.M., Sandler, G., Stern, A.J., Tranel, P.J., Weigel, D., Stinchcombe, J.R. and Wright, S.I. 2022. Repeated origins, widespread gene flow, and allelic interactions of target-site herbicide resistance mutations. <span class="italic">eLife</span>, 11. <span class="shyphen"><a href="https://doi.org/10.7554/eLife.70242">https://doi.org/10.7554/eLife.70242</a></span></p>
+<p class="bib">Lazaridis, I., Patterson, N., Mittnik, A., Renaud, G., Mallick, S., Kirsanow, K. <span class="italic">et al</span>. 2014. Ancient human genomes suggest three ancestral populations for present-day Europeans. <span class="italic">Nature</span> 513(7518), 409–13.</p>
+<p class="bib"><a id="page_61"></a>Lazaridis, I., Belfer-Cohen, A., Mallick, S., Patterson, N., Cheronet, O., Rohland, N. <span class="italic">et al</span>. 2018. Paleolithic DNA from the Caucasus reveals core of West Eurasian ancestry. <span class="italic">bioRxiv:</span>10.1101/423079.</p>
+<p class="bib">Leslie, S., Winney, B., Hellenthal, G., Davison, D., Boumertit, A., Day, T. <span class="italic">et al</span>. 2015. The fine-scale genetic structure of the British population. <span class="italic">Nature</span> 519(7543), 309–14.</p>
+<p class="bib">Mallick, C.B., Iliescu, F.M., Möls, M., Hill, S., Tamang, R., Chaubey, G. <span class="italic">et al</span>. 2013. The light skin allele of SLC24A5 in South Asians and Europeans shares identity by descent. <span class="italic">PLoS Genetics</span> 9, e1003912.</p>
+<p class="bib">Mallick, S., Li, H., Lipson, M., Mathieson, I., Gymrek, M., Racimo, F. <span class="italic">et al</span>. 2016. The Simons Genome Diversity Project: 300 genomes from 142 diverse populations. <span class="italic">Nature</span> 538(7624), 201–6.</p>
+<p class="bib">Matschiner, M., Barth, J.M.I., Tørresen, O.K., Star, B., Baalsrud, H.T., Brieuc, M.S.O., Pampoulie, C., Bradbury, I., Jakobsen, K.S. and Jentoft, S. 2022. Supergene origin and maintenance in Atlantic cod. <span class="italic">Nature Ecology &amp; Evolution</span> 6(4), 469–81.</p>
+<p class="bib">Meyer, M., Kircher, M., Gansauge, M.-T., Li, H., Racimo, F., Mallick, S. <span class="italic">et al</span>. 2012. A high-coverage genome sequence from an archaic Denisovan individual. <span class="italic">Science</span> 338(6104), 222–6.</p>
+<p class="bib">Prüfer, K., De Filippo, C., Grote, S., Mafessoni, F., Korlević, P., Hajdinjak, M. <span class="italic">et al.</span> 2017. A high-coverage Neandertal genome from Vindija Cave in Croatia. <span class="italic">Science</span> 358(6363), 655–8.</p>
+<p class="bib">Ralph, P., Thornton, K. and Kelleher, J. 2020. Efficiently summarizing relationships in large samples: a general duality between statistics of genealogies and genomes. <span class="italic">Genetics</span> 215(3), 779–97.</p>
+<p class="bib">Rasmussen, M.D., Hubisz, M.J., Gronau, I. and Siepel, A. 2014. Genome-wide inference of ancestral recombination graphs. <span class="italic">PLoS Genetics</span> 10, e1004342.</p>
+<p class="bib">Schaefer, N.K., Shapiro, B. and Green, R.E. 2021. An ancestral recombination graph of human, Neanderthal, and Denisovan genomes. <span class="italic">Science Advances</span> 7(29). <span class="shyphen"><a href="https://doi.org/10.1126/sciadv.abc0776">https://doi.org/10.1126/sciadv.abc0776</a></span>.</p>
+<p class="bib">Seguin-Orlando, A., Korneliussen, T.S., Sikora, M., Malaspinas, A.-S., Manica, A., Moltke, I. <span class="italic">et al</span>. 2014. Genomic structure in Europeans dating back at least 36,200 years. <span class="italic">Science</span> 346(6213), 1113–18.</p>
+<p class="bib">Sikora, M., Seguin-Orlando, A., Sousa, V.C., Albrechtsen, A., Korneliussen, T., Ko, A. <span class="italic">et al</span>. 2017. Ancient genomes show social and reproductive behavior of early Upper Paleolithic foragers. <span class="italic">Science</span> 358(6363), 659–62.</p>
+<p class="bib">Skoglund, P. and Mathieson, I. 2018. Ancient genomics of modern humans: the first decade. <span class="italic">Annual Review of Genomics and Human Genetics</span> 19(1), 381–404.</p>
+<p class="bib">Speidel, L., Cassidy, L., Davies, R.W., Hellenthal, G., Skoglund, P. and Myers, S.R. 2021. Inferring population histories for ancient genomes using genome-wide genealogies. <span class="italic">Molecular Biology and Evolution</span> 38(9), 3497–511.</p>
+<p class="bib">Speidel, L., Forest, M., Shi, S. and Myers, S.R. 2019. A method for genome-wide genealogy estimation for thousands of samples. <span class="italic">Nature Genetics</span> 51(9), 1321–9.</p>
+<p class="bib">Stern, A.J., Speidel, L., Zaitlen, N.A. and Nielsen, R. 2021. Disentangling selection on genetically correlated polygenic traits via whole-genome genealogies. <span class="italic">American Journal of Human Genetics</span> 108(2), 219–39.</p>
+<p class="bib">Stern, A.J., Wilton, P.R. and Nielsen, R. 2019. An approximate full-likelihood method for inferring selection and allele frequency trajectories from DNA sequence data. <span class="italic">PLoS Genetics</span> 15(9), e1008384.</p>
+<p class="bib">Wohns, A.W., Wong, Y., Jeffery, B., Akbari, A., Mallick, S., Pinhasi, R., Patterson, N., Reich, D., Kelleher, J. and McVean, G. 2022. A unified genealogy of modern and ancient genomes. <span class="italic">Science</span> 375(6583), eabi8264.</p>
+<p class="bib">Zhang, B.C., Biddanda, A. and Palamara, P.F. 2021. Biobank-scale inference of ancestral recombination graphs enables genealogy-based mixed model association of complex traits. <span class="italic">bioRxiv</span> 2021.11.03.466843). <span class="shyphen"><a href="https://doi.org/10.1101/2021.11.03.466843">https://doi.org/10.1101/2021.11.03.466843</a></span><a id="page_62"></a></p>
+</div>
+
+
+
+  </div>
+
+  
+  <div class="calibreToc">
+    <h2><a href="../../0uxpbel6.html">Table of contents
+</a></h2>
+    <div>
+  <ul>
+    <li>
+      <a href="00_Cover.xhtml">Front Cover</a>
+    </li>
+    <li>
+      <a href="00a_Half.xhtml#Half">Half-Title Page</a>
+    </li>
+    <li>
+      <a href="01_Title.xhtml">Title Page</a>
+    </li>
+    <li>
+      <a href="02_Copyright.xhtml">Copyright Page</a>
+    </li>
+    <li>
+      <a href="05_Contents.xhtml">Contents</a>
+    </li>
+    <li>
+      <a href="03_Foreword.xhtml">Foreword</a>
+    </li>
+    <li>
+      <a href="06_Contributors.xhtml">List of contributors</a>
+    </li>
+    <li>
+      <a href="07_Chapter01.xhtml#ch1">1. Introduction: questions of descent, relationships and identity</a>
+    </li>
+    <li>
+      <a href="08_Chapter02.xhtml#ch2">2. Living with archaeogenetics: three decades on</a>
+    </li>
+    <li>
+      <a href="09_Chapter03.xhtml#ch3">3. Five challenges for an integrated archaeogenetic paradigm</a>
+    </li>
+    <li>
+      <a href="10_Chapter04.xhtml#ch4">4. Ancient genomics methodology and genetic insularity in Neolithic Europe</a>
+    </li>
+    <li>
+      <a href="11_Chapter05.xhtml#ch5">5. Reconstructing the genealogical relationships of hunter-gatherers and farmers</a>
+    </li>
+    <li>
+      <a href="12_Chapter06.xhtml#ch6">6. Ancient DNA of Near Eastern Neolithic populations: the knowns and the unknowns</a>
+    </li>
+    <li>
+      <a href="13_Chapter07.xhtml#ch7">7. Farmer-forager interactions in the Iron Gates: new insights and new dilemmas</a>
+    </li>
+    <li>
+      <a href="14_Chapter08.xhtml#ch8">8. A glance at early Neolithic south-east and central Europe – as reflected by archaeological and archaeogenetic data</a>
+    </li>
+    <li>
+      <a href="15_Chapter09.xhtml#ch9">9. Ancestry and identity in the Balkans and the Carpathian basin between the 5th and 3rd millennia cal BC</a>
+    </li>
+    <li>
+      <a href="16_Chapter10.xhtml#ch10">10. The genetics of the inhabitants of Neolithic Britain: a review</a>
+    </li>
+    <li>
+      <a href="17_Chapter11.xhtml#ch11">11. Islands apart? Genomic perspectives on the Mesolithic–Neolithic transition in Ireland</a>
+    </li>
+    <li>
+      <a href="18_Chapter12.xhtml#ch12">12. Ancient DNA and modelling the Mesolithic–Neolithic transition in Britain and Ireland</a>
+    </li>
+    <li>
+      <a href="19_Chapter13.xhtml#ch13">13. Looking back, looking forward – humanity beyond biology</a>
+    </li>
+  </ul>
+</div>
+
+
+  </div>
+  
+
+  <div class="calibreEbNav">
+    
+      <a href="10_Chapter04.xhtml" class="calibreAPrev">previous page
+</a>
+    
+
+    <a href="../../0uxpbel6.html" class="calibreAHome">start
+</a>
+
+    
+      <a href="12_Chapter06.xhtml" class="calibreANext">next page
+</a>
+    
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,507 @@
+.bib {
+  display: block;
+  font-size: 0.83333em;
+  margin-bottom: 0%;
+  margin-left: 5%;
+  margin-right: 0%;
+  margin-top: 0%;
+  text-align: justify;
+  text-indent: -5%;
+}
+.bull {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0;
+  margin-left: 1.5em;
+  margin-right: 0;
+  margin-top: 0.1em;
+  text-align: justify;
+  text-indent: 0;
+}
+.bull1 {
+  float: left;
+  font-size: 100%;
+  margin-bottom: 0;
+  margin-left: -1.2em;
+  margin-right: 0;
+  margin-top: 0;
+  text-indent: 0;
+}
+.calibre {
+  display: block;
+  font-family: "Causten", serif;
+  font-size: 1em;
+  line-height: 1.4;
+  margin-bottom: 0;
+  margin-left: 5pt;
+  margin-right: 5pt;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: justify;
+}
+.calibre1 {
+  height: auto;
+  max-height: 98%;
+  max-width: 98%;
+  width: auto;
+}
+.calibre2 {
+  display: block;
+}
+.calibre3 {
+  line-height: 1.2;
+}
+.calibre4 {
+  display: table-column-group;
+}
+.calibre5 {
+  display: table-column;
+  width: 50%;
+}
+.calibre6 {
+  display: table-row;
+  vertical-align: middle;
+}
+.calibre7 {
+  height: auto;
+  max-height: 98%;
+  max-width: 98%;
+  width: 90%;
+}
+.calibre8 {
+  font-size: 0.75em;
+  line-height: normal;
+  vertical-align: super;
+}
+.calibre9 {
+  font-size: 0.75em;
+  line-height: normal;
+  vertical-align: sub;
+}
+.calibre10 {
+  font-size: 0.9em;
+  line-height: normal;
+  vertical-align: super;
+}
+.calibre11 {
+  font-size: 0.9em;
+  line-height: normal;
+  vertical-align: sub;
+}
+.calibre12 {
+  height: auto;
+  max-height: 98%;
+  max-width: 98%;
+  width: 50%;
+}
+.caption {
+  display: block;
+  font-size: 0.83333em;
+  margin-bottom: 4%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.centerimagea {
+  display: block;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  text-align: center;
+  text-indent: 0;
+}
+.chapaut {
+  display: block;
+  font-size: 1.29167em;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 8%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 5%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.chapnum {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0%;
+  margin-left: 0;
+  margin-right: 0%;
+  margin-top: 13%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.chaptitle {
+  display: block;
+  font-size: 1.66667em;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 0%;
+  margin-left: 0;
+  margin-right: 0%;
+  margin-top: 6%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.cont {
+  display: block;
+  font-size: 0.83333em;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.contt {
+  display: block;
+  font-size: 0.83333em;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 4%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.cpytxt {
+  display: block;
+  font-size: 0.83333em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  text-align: justify;
+  text-indent: 0;
+}
+.cpytxtt {
+  display: block;
+  font-size: 0.83333em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 5em;
+  text-align: justify;
+  text-indent: 0;
+}
+.cpytxtt1 {
+  display: block;
+  font-size: 0.83333em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1.2em;
+  text-align: justify;
+  text-indent: 0;
+}
+.cpytxtt2 {
+  display: block;
+  font-size: 0.83333em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 2em;
+  text-align: justify;
+  text-indent: 0;
+}
+.cpytxtt3 {
+  display: block;
+  font-size: 0.83333em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 3em;
+  text-align: justify;
+  text-indent: 0;
+}
+.fmtitle {
+  display: block;
+  font-size: 1.66667em;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 0%;
+  margin-left: 0;
+  margin-right: 0%;
+  margin-top: 11%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.h {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 1%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 8%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.h1 {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0.5%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.h2 {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0.5%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 5%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.image {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 2%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 2%;
+  text-align: center;
+  text-indent: 0%;
+}
+.indent {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  text-align: justify;
+  text-indent: 5%;
+}
+.italic {
+  font-style: italic;
+}
+.italic1 {
+  font-style: italic;
+  line-height: 1.2;
+}
+.linec {
+  border-bottom-color: #000;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  display: block;
+  margin-bottom: 10%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1%;
+  width: 100%;
+}
+.linef {
+  border-bottom-color: #000;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  display: block;
+  margin-bottom: 10%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0.5%;
+  width: 100%;
+}
+.noindent {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.noindenth {
+  display: block;
+  font-size: 0.83333em;
+  margin-bottom: 7%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.noindentt {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 3%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.num {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0;
+  margin-left: 1.7em;
+  margin-right: 0;
+  margin-top: 0.1em;
+  text-align: justify;
+  text-indent: 0;
+}
+.num1 {
+  float: left;
+  font-size: 1em;
+  margin-bottom: 0;
+  margin-left: -1.7em;
+  margin-right: 0;
+  margin-top: 0;
+  text-indent: 0;
+}
+.num2 {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0;
+  margin-left: 1.7em;
+  margin-right: 0;
+  margin-top: 0;
+  text-align: justify;
+  text-indent: 0;
+}
+.num3 {
+  display: block;
+  font-family: "Times new roman", serif;
+  font-size: 1em;
+  margin-bottom: 1%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1%;
+  text-align: justify;
+  text-indent: 0;
+}
+.numa {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0;
+  margin-left: 1.2em;
+  margin-right: 0;
+  margin-top: 0.1em;
+  text-align: justify;
+  text-indent: 0;
+}
+.numa1 {
+  float: left;
+  font-size: 1em;
+  margin-bottom: 0;
+  margin-left: -1.2em;
+  margin-right: 0;
+  margin-top: 0;
+  text-indent: 0;
+}
+.quote {
+  display: block;
+  font-size: 0.83333em;
+  margin-bottom: 2%;
+  margin-left: 7%;
+  margin-right: 5%;
+  margin-top: 2%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.shyphen {
+  word-break: break-all;
+}
+.smallcaps {
+  font-size: 0.75em;
+  line-height: 1.2;
+}
+.smallcaps1 {
+  font-size: 0.9em;
+  line-height: 1.2;
+}
+.smallcaps2 {
+  font-size: 0.83333em;
+  line-height: 1.2;
+}
+.tab {
+  display: table-cell;
+  font-size: 1em;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 0%;
+  text-align: justify;
+  text-indent: 0%;
+  vertical-align: top;
+}
+.table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  display: table;
+  margin-bottom: 5%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 5%;
+  text-align: justify;
+  text-indent: 0%;
+  width: 100%;
+}
+.toc {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0%;
+  margin-left: 1.7em;
+  margin-right: 0%;
+  margin-top: 3%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.toc-title {
+  display: block;
+  font-size: 1.66667em;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 0%;
+  margin-left: 0;
+  margin-right: 0%;
+  margin-top: 12%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.toc1 {
+  float: left;
+  font-size: 1em;
+  margin-bottom: 0;
+  margin-left: -1.2em;
+  margin-right: 0;
+  margin-top: 0;
+  text-align: justify;
+  text-indent: 0;
+}
+.toc2 {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0%;
+  margin-left: 1.7em;
+  margin-right: 0%;
+  margin-top: 0%;
+  text-align: justify;
+  text-indent: 0%;
+}
+.toca {
+  float: left;
+  font-size: 1em;
+  margin-bottom: 0;
+  margin-left: -1.7em;
+  margin-right: 0;
+  margin-top: 0;
+  text-align: justify;
+  text-indent: 0;
+}
+.weblink {
+  text-decoration: none;
+}
